@@ -4,7 +4,7 @@ const withMessage = (WrappedComponent)=>{
 
     return (props)=>{
 
-       return <WrappedComponent {...props} message="hellow"> </WrappedComponent>
+       return <WrappedComponent {...props} message="Hellow Hoc Sample"> </WrappedComponent>
     }
 
 }
